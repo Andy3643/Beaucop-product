@@ -10,7 +10,7 @@ export const TestimonialsData = [
     {
         image : profile2,
         comment: " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        name: "Natasha"
+        name: "Natasha Luiz"
     },
     {
         image : profile1,
