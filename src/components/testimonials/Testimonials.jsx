@@ -9,7 +9,7 @@ function Testimonials() {
         <div className={css.wrapper}>
             <div className={css.container}>
                 <span>Top Rated</span>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente ex.</span>
+                <span> For a more beautiful you, try the Aloevera skin products</span>
             </div>
         
         <img src={Hero} alt="" />
@@ -27,6 +27,11 @@ function Testimonials() {
         slidesPerGroup={1}
         spaceBetween={20}
         className={css.tCarousel}
+        breakpoints={{
+            856:{slidesPerView:3},
+            640:{slidesPerView:2},
+            0:{slidesPerView:1}
+        }}
         >
             {
                 TestimonialsData.map((testimonial,i)=>(

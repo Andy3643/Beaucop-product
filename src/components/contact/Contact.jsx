@@ -1,16 +1,20 @@
 import React from 'react'
-import Logo from "../../assets/logo.png"
+
 import css from './Contact.module.css'
-import {InboxIcon,PhoneIcon,LocationMarkerIcon,LoginIcon,UsersIcon,LinkIcon} from "@heroicons/react/outline";
 function Contact() {
   return (
     <div className={css.cFooterWrapper}>
         <hr />
         <div className={css.cFooter}>
             <div className={css.logo}>
-                <img src={Logo} alt="" />
-                <span>Amazon</span>
+               
+                <span>Designed by 
+                    <br />
+                    Andy Opote <br />
+                    0790 552 354
+                </span>
             </div>
+          
         </div>
     </div>
   )
